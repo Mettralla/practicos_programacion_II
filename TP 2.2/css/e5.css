@@ -1,0 +1,50 @@
+.product-card {
+    display: grid;
+    height: 18vw;
+    width: 20vw;
+    padding: 0.5vw;
+    background-color: whitesmoke;
+    border-radius: 1vw;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    border: 1px rgba(128, 128, 128, 0.82) solid;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    background-color: rgb(235, 233, 233);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.401);
+}
+
+.card-header {
+    height: auto;
+    width: 20vw;
+    grid-row: 1;
+    border-radius: 1vw;
+}
+
+.product-info {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+}
+
+.title {
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    color: rgb(76, 75, 75);
+    margin: 0;
+}
+
+.price {
+    grid-row: 2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    color: rgb(76, 75, 75);
+}

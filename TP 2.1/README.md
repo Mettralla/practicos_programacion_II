@@ -1,3 +1,10 @@
+## Integrantes:
+
+- Fernando Maldonado
+- José K. Cuesta
+- Edgardo Fernando Lamas
+- Daniel Alejandro Tejerina
+
 ## Trabajo Practico 1 - HTML
 
 ### Ejercicio 1
