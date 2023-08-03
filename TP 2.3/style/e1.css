@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#container {
+    background-color: rgb(241, 237, 237);
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid: 1fr 2fr;
+    row-gap: 1rem;
+    padding: 5vh;
+    height: 18rem;
+    border-radius: 2rem;
+}
+
+#miForm {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1rem;
+}
+
+#visor {
+    background-color: black;
+    color: green;
+    display: flex;
+    height: 4rem; 
+    align-items: center;
+    justify-content:center;
+    font-size: 5vh;
+    border-radius: 1rem;
+}
+
+.form-control {
+    text-align: center;
+}
+
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    text-align: right;
+}
+
+button {
+    display: flexbox;
+    justify-self: center;
+    padding: 0.5rem;
+    width: 7rem;
+    background-color: green;
+    border-radius: 0.3rem;
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgba(0, 128, 0, 0.8);
+}
