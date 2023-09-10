@@ -8,7 +8,7 @@ class DatabaseConnection:
         if db not in cls._connections:
             cls._connections[db] = mysql.connector.connect(
                 host="127.0.0.1",
-                user="root",
+                user="username",
                 port="3306",
                 password="password",
                 database=db
